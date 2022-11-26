@@ -415,10 +415,10 @@ eslint-module-utils@^2.7.3:
   dependencies:
     debug "^3.2.7"
 
-eslint-plugin-functional@^5.0.0-beta.10:
-  version "5.0.0-beta.10"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-functional/-/eslint-plugin-functional-5.0.0-beta.10.tgz#426d95bb19eebfc0e176e682c017f821ec918576"
-  integrity sha512-4uitjPozRlxSekr/y1Uf//XDzquD9S8Ir4tG1yueI4wiIuq17gogizWxJmu1T3xggGR+FhqdIEPGmJ33xhiL/A==
+eslint-plugin-functional@^5.0.0-beta.11:
+  version "5.0.0-beta.11"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-functional/-/eslint-plugin-functional-5.0.0-beta.11.tgz#a33a01d6d113e48a36260ab0465b9345aa90ea6d"
+  integrity sha512-syvYKAz4PDYlYODZtbmIkA+IUwQ5PNTLbz09wft7e0Lrmhi6T0+Tk2YJMPXejCjkQOIpzwZvdzDqJ9hp9Z1yjA==
   dependencies:
     "@typescript-eslint/utils" "^5.40.0"
     deepmerge-ts "^4.2.2"
@@ -843,9 +843,9 @@ is-glob@^4.0.0, is-glob@^4.0.1, is-glob@^4.0.3:
     is-extglob "^2.1.1"
 
 is-immutable-type@^1.2.0:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/is-immutable-type/-/is-immutable-type-1.2.1.tgz#55bca8daa8cc6075461cf8abb270839503d821d7"
-  integrity sha512-bioRlS7gAjDCEp0U4no11G/CiyQnfh8c+DNjzBNIqLqa9M+xtoBx6Rz1o3synH5zFx/1k5cn6cJwp+YB3Wj8tQ==
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/is-immutable-type/-/is-immutable-type-1.2.2.tgz#57f32717b1570ca7ad07a089985a54e28e9a2641"
+  integrity sha512-4H2v+uGNoqS2jq1DddKgap202zj2p2er4Ql0InjWq1vMOaTCYhVOClXilzOReJO06RBJHZZWKUCpmX3AnUxXHQ==
 
 is-negative-zero@^2.0.2:
   version "2.0.2"
