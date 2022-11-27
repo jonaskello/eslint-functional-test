@@ -1,8 +1,16 @@
-interface AnExternalFunctionType {
-  (a: string): string;
-  extraProperty: string | undefined;
-}
+// interface AnExternalFunctionType {
+//   (a: string): string;
+//   extraProperty?: string | undefined;
+// }
 
-export const Icons: AnExternalFunctionType = () => {
-  return "";
+export type Olle = {
+  readonly kalle: string;
 };
+
+// export const Icons: Readonly<AnExternalFunctionType> & AnExternalFunctionType = () => {
+//   return "";
+// };
+
+export function Olle(kalle: string, olle: string[]): string {
+  return "";
+}
