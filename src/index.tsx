@@ -11,6 +11,6 @@ export type Olle = {
 //   return "";
 // };
 
-export function Olle(kalle: string, olle: string[]): string {
+export function Olle(kalle: string, olle: Array<string>): string {
   return "";
 }

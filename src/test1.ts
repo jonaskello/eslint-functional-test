@@ -1,5 +1,5 @@
-export type Foo = Readonly<{
-  readonly bar: string;
-  readonly baz: number;
-  readonly whatever: string;
-}>;
+export type Foo = {
+  bar: string;
+  baz: number;
+  whatever: string;
+};
