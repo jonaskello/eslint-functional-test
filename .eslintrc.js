@@ -19,9 +19,30 @@ module.exports = {
         returnTypes: { ignoreInferredTypes: true },
       },
     ],
+    // "functional/type-declaration-immutability": [
+    //   "error",
+    //   {
+    //     rules: [{ identifiers: "^(?!I?Mutable).+", immutability: "ReadonlyShallow" }],
+    //     fixer: [
+    //       { pattern: "^(Array|Map|Set)<(.+)>$", replace: "Readonly$1<$2>" },
+    //       { pattern: "^(.+)$", replace: "Readonly<$1>" },
+    //     ],
+    //   },
+    // ],
     "functional/type-declaration-immutability": [
       "error",
-      { rules: [{ identifiers: "^(?!I?Mutable).+", immutability: "ReadonlyShallow" }] },
+      {
+        rules: [
+          {
+            identifiers: "^(?!I?Mutable).+",
+            immutability: "ReadonlyShallow",
+            fixer: [
+              { pattern: "^(Array|Map|Set)<(.+)>$", replace: "Readonly$1<$2>" },
+              { pattern: "^(.+)$", replace: "Readonly<$1>" },
+            ],
+          },
+        ],
+      },
     ],
     "functional/readonly-type": ["error", "keyword"],
   },
